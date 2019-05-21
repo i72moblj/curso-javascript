@@ -33,7 +33,7 @@
 */
 
 
-// CONDICIONAL if-else
+// CONDICIONAL if else
 // -------------------
 
 /*
@@ -46,8 +46,8 @@
 */
 
 
-// CONDICIONAL elseif
-// ------------------
+// CONDICIONAL else if
+// -------------------
 
 /* 
     if (condición1) {
