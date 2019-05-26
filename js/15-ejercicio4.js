@@ -1,7 +1,7 @@
 'use strict'
 
 /*
-Hacer un programa que muestre todos lo números entre dos números introducidos por el usuario
+Mostrar todos los números impares que hay entre 2 números introducidos por el usuario
 */
 
 do {
@@ -32,9 +32,8 @@ if (numero1 > numero2) {
     mayor = numero1;
 }
 
-// document.write escribe en el <body> de la página HTML
-
-document.write("<h3>Números entre " + menor + " y " + mayor + "</h3>")
+document.write("<h3>Números impares entre " + menor + " y " + mayor + "</h3>")
 for (var i = menor + 1; i < mayor; i++) {
+    if (i % 2 != 0)
     document.write(i + "<br>");
 }
