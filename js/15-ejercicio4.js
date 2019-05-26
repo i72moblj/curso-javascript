@@ -16,7 +16,7 @@ do {
 
 do {
     var numeroValido = true;
-    var numero2 = parseInt(prompt("Introduce el primer número: ", 0));
+    var numero2 = parseInt(prompt("Introduce el segundo número: ", 0));
 
     if (isNaN(numero2)) {
         alert("ERROR: Debes introducir un número válido");
